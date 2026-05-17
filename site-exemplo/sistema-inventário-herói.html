@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de inventário de Herói</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>RPG Inventory System - Trabalho Final de POO</h1>
+        </header>
+        <article>
+            <p>Sistema de RPG desenvolvido em Python para a disciplina de POO (UFSC 2025-2), focado em gerenciamento de inventário, equipamentos e combate, utilizando Herança, Polimorfismo e Composição.</p>
+            <h2>Sobre o Projeto</h2>
+            <p>O sistema permite a criação de um personagem, gerenciamento de uma mochila com itens variados (Armas, Armaduras e Consumíveis) e a simulação de combates contra inimigos. O foco principal foi a aplicação prática dos conceitos fundamentais de POO em um cenário dinâmico.</p>
+            <h3>Requisitos de POO Implementados</h3>
+            <ul>
+                <li><strong>Estruturas de Seleção/Repetição:</strong> Menus interativos (<code>while True</code>) e lógica de combate baseada em turnos.</li>
+                <li><strong>Coleções:</strong> Uso de <code>list</code> para a mochila do inventário e <code>dict</code> para o mapeamento de slots de equipamentos.</li>
+                <li><strong>Instanciação:</strong> Criação dinâmica de objetos de classes específicas durante a execução.</li>
+                <li><strong>Herança:</strong> As classes <code>Arma</code>, <code>Armadura</code> e <code>Consumivel</code> herdam atributos e métodos da superclasse <code>Item</code>.</li>
+                <li><strong>Polimorfismo:</strong> Sobrescrita do método <code>descrever()</code> nas subclasses para fornecer detalhes específicos de cada tipo de item.</li>
+                <li><strong>Agregação/Composição:</strong> A classe <code>Personagem</code> contém uma instância da classe <code>Inventario</code> (Composição), garantindo que o ciclo de vida do inventário esteja ligado ao herói.</li>
+                <li><strong>CRUD Completo:</strong> Manipulação da lista de itens com funções de <strong>Inserir</strong> (Adicionar), <strong>Consultar</strong> (Visualizar), <strong>Alterar</strong> (Editar nome/valor) e <strong>Excluir</strong> (Remover).</li>
+            </ul>
+            <p><a href="https://github.com/Piromali/hero-inventory-system" target="_blank">Acesse o repositório no GitHub!</a></p>
+
+            <a href="index.html"><img src="imagens/btn-back.png" alt="Voltar"></a>
+        </article>
+    </main>
+</body>
+</html>

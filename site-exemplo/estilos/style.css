@@ -4,14 +4,78 @@
 }
 
 body {
-    background-color: rgb(223, 82, 176);
+    background-color: #0d1117;
 
 }
 
 main {
-    background-color: rgb(238, 220, 220);
-    width: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 560px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(58, 0, 112);
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgb(58, 0, 112);
+}
+
+img.lado {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(58, 0, 112);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(26, 26, 255);
+}
+
+p.introducao {
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+            color: #000000;
+}
+
+pre {
+            background-color: #161b22;
+            padding: 16px;
+            border-radius: 6px;
+            border: 1px solid #30363d;
+            overflow-x: auto;
+            margin-bottom: 16px;
+        }
+
+        pre code {
+            background-color: transparent;
+            color: #e6edf3;
+            padding: 0;
+            border: none;
+            border-radius: 0;
+            font-size: 90%;
+}
+
+.math {
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #58a6ff; /* Tom azulado para destacar equações */
+}
+
+.gif-projeto {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
 }
